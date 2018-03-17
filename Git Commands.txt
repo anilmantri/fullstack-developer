@@ -1,0 +1,23 @@
+Git Commands
+------------------
+sumbarma@DIN55001727 MINGW64 /d/SumanBarman/Demos
+$ git init
+
+sumbarma@DIN55001727 MINGW64 /d/SumanBarman/Demos (master)
+$ git remote add origin https://github.com/sumanbarman/ClassRoomTraining.git
+
+sumbarma@DIN55001727 MINGW64 /d/SumanBarman/Demos (master)
+$ git add *.*
+
+sumbarma@DIN55001727 MINGW64 /d/SumanBarman/Demos (master)
+$ git commit -m "Adding projects"
+
+sumbarma@DIN55001727 MINGW64 /d/SumanBarman/Demos (master)
+$ git pull origin master
+
+sumbarma@DIN55001727 MINGW64 /d/SumanBarman/Demos (master)
+$ git push origin master
+
+For adding new folder/files
+sumbarma@DIN55001727 MINGW64 /d/SumanBarman/Demos (master)
+$ git add ./blog-microservices-2/*
