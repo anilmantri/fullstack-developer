@@ -1,0 +1,43 @@
+Trainer :Satish Mahajan
+
+
+Template - html+css
+
+Decorator - (metadata) annotations
+
+class - properties+methods
+
+ -> Component has above 3 things
+        whenever we want to add functionality in existing one, then add component
+
+ -> Selector - Custom tags in java/jsp like that. it need to be applied to component
+
+ -> Registration of Component - To know the angular compiler that which one is component and Selector
+        Register with bootstrap
+
+ ->   https://angular.io/docs
+
+ -> command to start the server : npm start
+
+ -> angular-cli.json file for images,css to be configured in project
+        images in asset part in this json
+        test env in karma concept
+
+ -> how to create a component
+        ng g c product/product-detail.component
+                -> app
+                        product
+                                product 
+                                        product-detail.component.ts
+                                        product-detail.component.html
+                                        product-detail.component.css
+    to avoid the repeat folder product use below command
+    ng g c product/product-detail.component --flat
+
+                ->app
+                        product
+                                product-detail.component.ts
+                                product-detail.component.html
+                                product-detail.component.css
+->interpolation is - {{variable/property of interpolation}}
+                        declare it in class
