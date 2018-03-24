@@ -41,3 +41,9 @@ class - properties+methods
                                 product-detail.component.css
 ->interpolation is - {{variable/property of interpolation}}
                         declare it in class
+->property binding - in the tags itself we can give the attribute and values
+                like <img ngIf="showImage" [src]="product.productUrl" />
+->Event binding: on button click binding to call functionality
+->Two Way binding: setting and displaying the property at the same time
+-> To create the custom pipe
+                ng g pipe convert-to-spaces.pipe.ts                    
