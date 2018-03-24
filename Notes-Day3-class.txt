@@ -1,0 +1,31 @@
+Trainer :Satish Mahajan
+
+Component Life Cycle
+   1. Create
+   2. Render
+   3. Create and Render
+   4. Process change Destroy
+
+   ng g service <service_name> to create a service
+
+
+
+   indexPage.html
+            WelcomeComponent
+            AppComponent
+                AppModule
+
+                Product
+                    ProductListComponent
+                    ProductDetailsComponent
+                    ProductGuardService
+                    ProductModule
+                    ProductService
+                shared
+                    StarComponent
+                    CustomPipe
+                    StarModule5
+
+@CrossOrigin(origins="http://localhost:8080/...")
+
+this is used to accept the request from different domains
